@@ -1,0 +1,11 @@
+Descriptions of the problems I am solving in each file.
+
+GENERATORS: 
+There is a number of generators, each one producing a certain amount of energy. There are also several need points, requiring energy of different ammounts. The goal 
+is to match the needs, using the available resources, in the most efficient way. The list of matchings should be saved as an list of statements.
+
+TRANSMITIONS:
+A TV station needs to broadcast a number of transmitions. The TV station has a limited bandwidth available(eg 400). Each transmition has: a Duration, 
+a required bandwidth, and a cost multiplier. The cost is calculated by multiplying the time of the videos end(time after we start broadcasting), with the cost multiplier.
+Some of the transmitions can't be broadcasted together, for other reasons (eg conflicting interests of transmition 1 and 5).
+The goal is to broadcaast all transmitions with the lowest cost.
